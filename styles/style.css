@@ -14,6 +14,7 @@
 .hero_header {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: black;
     border-color: black;
 }
@@ -26,6 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    flex-wrap: wrap;
     gap: 3rem;
     padding-right: 2rem;
 }
@@ -34,11 +36,22 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     gap: 2.5rem;
     letter-spacing: 1px;
     width: 100%;
-    padding: 50px 40px 0 0;   
+    padding: 50px 40px 0 0;
+    justify-content: center;
+       
 }
+
+@media screen and (max-width: 800px) {
+    .navbar .menu {
+            justify-content: center;
+            padding: 0;
+      }
+}
+
 
 .menu .menu_item a{
     display: inline-block;
@@ -120,71 +133,6 @@
     
 }
 
-
-/* .contacto__main {
-    background-image: url(../Assets/Main\ -\ Contacto.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: monospace;
-    height: 900px;
-    display: flex;
-}
-
-.formulario {
-    width: 450px;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.414);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    border-radius: 7px;
-}
-
-form h2{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-form input, textarea {
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 10px;
-    font-size: 15px;
-    border: none;
-}
-
-.formulario textarea {
-    max-height: 300px;
-    min-height: 100px;
-    max-width: 100%;
-    min-width: 50%;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
--webkit-appearance: none;
-margin: 0;
-}
-
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-#contacto__boton_enviar {
-    height: 80px;
-    width: 400px;
-    font-size: 20px;
-    background: #31348a;
-    color: white;
-    padding: 20px;
-}
-
-#contacto__boton_enviar:hover {
-    cursor: pointer;
-} */
-
 /*  Main - Nuestra historia*/
 
 .historia__main {
@@ -229,6 +177,8 @@ input[type=number] {
     gap: 200px;
 }
 
+
+
 .mision__section1, .mision__section2 {
     margin: auto;
     background: rgba(255, 255, 255, 0.414);
@@ -243,7 +193,7 @@ input[type=number] {
 .footer {
     color: white;
     background-color: #072526;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -252,4 +202,11 @@ input[type=number] {
 
 footer i {
     font-size: 60px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+            justify-content: center;
+        
+      }
 }
