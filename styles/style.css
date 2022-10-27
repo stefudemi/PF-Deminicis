@@ -115,6 +115,13 @@
 /*  Main - Contacto*/
 
 .contacto__main {
+    height: 100vh;
+    background-image: url(../Assets/Main\ -\ Mision.png);
+    
+}
+
+
+/* .contacto__main {
     background-image: url(../Assets/Main\ -\ Contacto.png);
     background-attachment: fixed;
     background-size: cover;
@@ -176,7 +183,7 @@ input[type=number] {
 
 #contacto__boton_enviar:hover {
     cursor: pointer;
-}
+} */
 
 /*  Main - Nuestra historia*/
 
