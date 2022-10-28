@@ -1,1 +1,1 @@
-A ver si funca esto ahora.
+Las paginas responsive son el Index y Contacto. Todas las páginas estan hechas con flexbox o bootstrap. Proximamente voy a incluir mas animaciones ya que, actualmente, la única animación que hay es un hover en el navbar. Perdón pero estuve muy ocupado en el trabajo :(. 
