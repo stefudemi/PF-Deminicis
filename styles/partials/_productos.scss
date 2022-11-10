@@ -1,0 +1,37 @@
+
+  /*  Main - Productos */
+  
+  .tarjetitas {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+  }
+  
+  .tarjetita {
+    background-color: rgb(39, 145, 169);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    border: 5px solid black;
+  }
+  
+  .tarjetita_imagen {
+    max-width: 100%;
+    flex: 1;
+  }
+  
+  .tarjetita_informacion {
+    padding: 0 20px 20px 20px;
+  }
+  
+  .tarjetita button {
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    background: #31348a;
+    color: white;
+    cursor: pointer;
+  }

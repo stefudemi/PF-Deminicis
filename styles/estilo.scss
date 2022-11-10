@@ -1,0 +1,11 @@
+@import "./partials/variables"; // Siempre arriba de todo las variables //
+@import "./partials/reset"; // Siempre abajo de variables //
+
+@import "./partials/header"; 
+@import "./partials/index";
+@import "./partials/productos";
+@import "./partials/nuestra-mision";
+@import "./partials/nuestra-historia";
+@import "./partials/contacto";
+@import "./partials/footer";
+// Abajo de todo irian los media queries//
