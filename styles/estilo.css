@@ -16,7 +16,6 @@
   background-color: black;
   border-color: black;
 }
-
 .hero_header .logo {
   width: 25%;
 }
@@ -29,7 +28,6 @@
   gap: 3rem;
   padding-right: 2rem;
 }
-
 .navbar .menu {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   display: flex;
@@ -42,23 +40,27 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
-  .navbar .menu {
-    padding: 0;
-  }
-}
 .menu .menu_item a {
   display: inline-block;
   text-decoration: none;
   color: white;
 }
 
-.menu_item.active a,
+.menu_item.active a {
+  text-decoration: underline;
+  color: green;
+}
+
 .menu_item a:hover {
   text-decoration: underline;
   color: green;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar .menu {
+    padding: 0;
+  }
+}
 .inicio__main {
   background-image: url(../Assets/Main\ -\ Index.png);
   background-repeat: no-repeat;
@@ -71,14 +73,12 @@
   padding-inline: 420px;
   text-align: center;
 }
-
 .inicio__main h2 {
   color: #072526;
   background-color: rgba(174, 194, 37, 0.8);
   padding-inline: 15px;
 }
 
-/*  Main - Productos */
 .tarjetitas {
   display: flex;
   padding: 50px;
@@ -126,6 +126,12 @@
   gap: 200px;
 }
 
+@media screen and (max-width: 800px) {
+  .mision__main {
+    padding: 0;
+    gap: 1rem;
+  }
+}
 .mision__section1,
 .mision__section2 {
   margin: auto;
@@ -155,13 +161,12 @@
   box-sizing: border-box;
   border-radius: 7px;
 }
+.historia__main__titulo h2 {
+  color: rgb(252, 247, 247);
+}
 
 .historia__main__video {
   padding-bottom: 20vh;
-}
-
-.historia__main__titulo h2 {
-  color: rgb(252, 247, 247);
 }
 
 .contacto__main {

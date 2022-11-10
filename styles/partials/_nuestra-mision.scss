@@ -10,6 +10,13 @@
     gap: 200px;
   }
   
+  @media screen and (max-width: 800px) {
+    .mision__main {
+      padding: 0;
+      gap: 1rem;
+    }
+  }
+
   .mision__section1,
   .mision__section2 {
     margin: auto;

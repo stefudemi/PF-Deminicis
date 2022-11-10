@@ -1,56 +1,63 @@
 .hero {
-    height: 100vh;
-    background-color: #a59784;
-  }
-  
-  .hero_header {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: black;
-    border-color: black;
-  }
-  
-  .hero_header .logo {
-    width: 25%;
-  }
-  
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 3rem;
-    padding-right: 2rem;
-  }
-  
-  .navbar .menu {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    letter-spacing: 1px;
-    width: 100%;
-    padding: 50px 40px 0 0;
-    justify-content: center;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .navbar .menu {
-      padding: 0;
-    }
-  }
-  
-  .menu .menu_item a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .menu_item.active a,
-  .menu_item a:hover {
-    text-decoration: underline;
-    color: green;
-  }
+	height: 100vh;
+	background-color: #a59784;
+}
+.hero_header {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: black;
+	border-color: black;
+	.logo {
+		width: 25%;
+	}
+}
+.navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	gap: 3rem;
+	padding-right: 2rem;
+	.menu {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+		display: flex;
+		list-style: none;
+		flex-wrap: wrap;
+		gap: 2.5rem;
+		letter-spacing: 1px;
+		width: 100%;
+		padding: 50px 40px 0 0;
+		justify-content: center;
+	}
+}
+.menu {
+	.menu_item {
+		a {
+			display: inline-block;
+			text-decoration: none;
+			color: white;
+		}
+	}
+}
+.menu_item.active {
+	a {
+		text-decoration: underline;
+		color: green;
+	}
+}
+.menu_item {
+	a {
+		&:hover {
+			text-decoration: underline;
+			color: green;
+		}
+	}
+}
+@media screen and (max-width: 800px) {
+	.navbar {
+		.menu {
+			padding: 0;
+		}
+	}
+}

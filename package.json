@@ -1,0 +1,59 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.1"
+  },
+  "name": "pre-entrega2-deminicis",
+  "description": "Las paginas responsive son el Index y Contacto. Todas las páginas estan hechas con flexbox o bootstrap. Proximamente voy a incluir mas animaciones ya que, actualmente, la única animación que hay es un hover en el navbar. Perdón pero estuve muy ocupado en el trabajo :(.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "abbrev": "^1.1.1",
+    "anymatch": "^3.1.2",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "binary-extensions": "^2.2.0",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.3",
+    "debug": "^3.2.7",
+    "concat-map": "^0.0.1",
+    "fill-range": "^7.0.1",
+    "has-flag": "^3.0.0",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.1.0",
+    "ignore-by-default": "^1.0.1",
+    "is-extglob": "^2.1.1",
+    "is-binary-path": "^2.1.0",
+    "is-number": "^7.0.0",
+    "ms": "^2.1.3",
+    "minimatch": "^3.1.2",
+    "is-glob": "^4.0.3",
+    "nopt": "^1.0.10",
+    "pstree.remy": "^1.1.8",
+    "normalize-path": "^3.0.0",
+    "readdirp": "^3.6.0",
+    "picomatch": "^2.3.1",
+    "semver": "^5.7.1",
+    "source-map-js": "^1.0.2",
+    "supports-color": "^5.5.0",
+    "simple-update-notifier": "^1.0.7",
+    "to-regex-range": "^5.0.1",
+    "undefsafe": "^2.0.5",
+    "touch": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles/estilo.scss styles/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefudemi/Pre-entrega2-Deminicis.git"
+  },
+  "author": "Stefano Deminicis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefudemi/Pre-entrega2-Deminicis/issues"
+  },
+  "homepage": "https://github.com/stefudemi/Pre-entrega2-Deminicis#readme"
+}

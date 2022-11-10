@@ -1,19 +1,18 @@
 .inicio__main {
-    background-image: url(../Assets/Main\ -\ Index.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-inline: 420px;
-    text-align: center;
-  }
-  
-  .inicio__main h2 {
-    color: #072526;
-    background-color: rgba(174, 194, 37, 0.8);
-    padding-inline: 15px;
-  }
-  
+	background-image: url(../Assets/Main\ -\ Index.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-inline: 420px;
+	text-align: center;
+
+	h2 {
+		color: #072526;
+		background-color: rgba(174, 194, 37, 0.8);
+		padding-inline: 15px;
+	}
+}

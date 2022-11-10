@@ -76,12 +76,14 @@
   align-items: center;
   padding-inline: 420px;
   text-align: center;
+  
 }
 
 .inicio__main h2 {
   color: #072526;
   background-color: rgba(174, 194, 37, 0.8);
   padding-inline: 15px;
+ 
 }
 
 /*  Main - Productos */
@@ -141,6 +143,7 @@
   align-items: center;
   gap: 40px;
   padding-top: 20px;
+  overflow: hidden;
 }
 
 .historia__main__titulo {
@@ -153,6 +156,7 @@
 
 .historia__main__video {
   padding-bottom: 20vh;
+   
 }
 
 .historia__main__titulo h2 {
@@ -167,9 +171,17 @@
   background-size: cover;
   background-position: center center;
   display: flex;
+  box-sizing: border-box;
   padding-inline: 420px;
   text-align: center;
-  gap: 200px;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .mision__main {
+    padding: 0;
+    gap: 1rem;
+  }
 }
 
 .mision__section1,

@@ -1,28 +1,25 @@
 .historia__main {
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../Assets/Main\ -\ Historia.png);
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    padding-top: 20px;
-  }
-  
-  .historia__main__titulo {
-    margin: auto;
-    background: rgba(39, 105, 192, 0.64);
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 7px;
-  }
-  
-  .historia__main__video {
-    padding-bottom: 20vh;
-  }
-  
-  .historia__main__titulo h2 {
-    color: rgb(252, 247, 247);
-  }
+	background-size: cover;
+	background-position: center center;
+	background-image: url(../Assets/Main\ -\ Historia.png);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	padding-top: 20px;
+}
+.historia__main__titulo {
+	margin: auto;
+	background: rgba(39, 105, 192, 0.64);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	h2 {
+		color: rgb(252, 247, 247);
+	}
+}
+.historia__main__video {
+	padding-bottom: 20vh;
+}
