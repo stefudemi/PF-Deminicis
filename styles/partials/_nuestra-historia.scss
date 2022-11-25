@@ -12,7 +12,7 @@
 }
 .historia__main__titulo {
 	margin: auto;
-	background: rgba(39, 105, 192, 0.64);
+	background: rgba(39, 105, 192, 0.913);
 	padding: 20px;
 	box-sizing: border-box;
 	border-radius: 7px;
@@ -23,3 +23,24 @@
 .historia__main__video {
 	padding-bottom: 20vh;
 }
+
+.iframe-wraper {
+	position: relative;
+	padding-bottom: 56.25%;
+	
+  }
+  
+  iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+  }
+
+  .container {
+	max-width: 900px;
+	padding-bottom: 20vh;
+	
+  }

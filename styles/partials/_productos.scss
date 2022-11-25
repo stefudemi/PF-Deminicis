@@ -1,34 +1,21 @@
-   .tarjetitas {
-    display: flex;
-    padding: 50px;
-    gap: 30px;
-  }
+.main__productos {
+ background-image: url(../../Assets/Background-images/Productos\ 2.jpg);
+ height: 180vh;
+ background-position: center center;
+
+}
+
+.tarjetita__productos {
+	margin: auto;
+	background: rgba(255, 255, 255, 0.855);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 7px;
+    max-height: 80%;
+
   
-  .tarjetita {
-    background-color: rgb(39, 145, 169);
-    border-radius: 30px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex: 1;
-    border: 5px solid black;
-  }
-  
-  .tarjetita_imagen {
-    max-width: 100%;
-    flex: 1;
-  }
-  
-  .tarjetita_informacion {
-    padding: 0 20px 20px 20px;
-  }
-  
-  .tarjetita button {
-    height: 40px;
-    width: 400px;
-    font-size: 20px;
-    background: #31348a;
-    color: white;
-    cursor: pointer;
-  }
+	&:hover {
+		transform: scale(1.1) translateY(-40px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	}
+}

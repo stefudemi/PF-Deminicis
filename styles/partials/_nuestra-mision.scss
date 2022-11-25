@@ -1,27 +1,40 @@
 .mision__main {
-    background-image: url(../Assets/Main\ -\ Mision.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    padding-inline: 420px;
-    text-align: center;
-    gap: 200px;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .mision__main {
-      padding: 0;
-      gap: 1rem;
-    }
-  }
+	background-image: url(../Assets/Main\ -\ Mision.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
 
-  .mision__section1,
-  .mision__section2 {
-    margin: auto;
-    background: rgba(255, 255, 255, 0.414);
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 7px;
-  }
+	text-align: center;
+	gap: 200px;
+	padding: 0;
+}
+.mision__section1 {
+	margin: auto;
+	background: rgba(255, 255, 255, 0.855);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	&:hover {
+		transform: scale(1.1) translateY(-40px);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+	}
+}
+.mision__section2 {
+	margin: auto;
+	background: rgba(255, 255, 255, 0.855);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	&:hover {
+		transform: scale(1.1) translateY(-40px);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.mision__main {
+		padding: 0;
+		gap: 1rem;
+	}
+}
