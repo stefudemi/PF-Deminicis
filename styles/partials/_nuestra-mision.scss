@@ -7,13 +7,15 @@
 	display: flex;
 
 	text-align: center;
-	gap: 200px;
+	gap: 70px;
 	padding: 0;
 }
 .mision__section1 {
 	margin: auto;
+	max-width: 30%;
 	background: rgba(255, 255, 255, 0.855);
 	padding: 20px;
+	// margin-left: 150px;
 	box-sizing: border-box;
 	border-radius: 7px;
 	&:hover {
@@ -23,8 +25,10 @@
 }
 .mision__section2 {
 	margin: auto;
+	max-width: 30%;
 	background: rgba(255, 255, 255, 0.855);
 	padding: 20px;
+	// margin-right: 150px;
 	box-sizing: border-box;
 	border-radius: 7px;
 	&:hover {

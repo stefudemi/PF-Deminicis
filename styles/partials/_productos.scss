@@ -1,21 +1,23 @@
 .main__productos {
  background-image: url(../../Assets/Background-images/Productos\ 2.jpg);
- height: 180vh;
+ height: 200h;
  background-position: center center;
 
 }
 
 .tarjetita__productos {
 	margin: auto;
-	background: rgba(255, 255, 255, 0.855);
+	// background: rgba(255, 255, 255, 0.855);
 	padding: 20px;
 	box-sizing: border-box;
 	border-radius: 7px;
     max-height: 80%;
-
-  
+	min-width: 40%;
 	&:hover {
 		transform: scale(1.1) translateY(-40px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 	}
+}
+.container {
+	padding-top: 60px;
 }
