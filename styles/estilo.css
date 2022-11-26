@@ -193,7 +193,7 @@ iframe {
 
 .contacto__main {
   height: 100vh;
-  background: url(Assets/Contacto.png);
+  background: url(../Assets/Contacto.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
